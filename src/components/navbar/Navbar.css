@@ -1,0 +1,121 @@
+.navigation-bar{
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Pc-navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+   height: 70px;
+   align-items: center;
+   
+}
+.Pc-navigation-bar .page-title{
+    width: 100%;
+    
+    display: flex;  
+    justify-content: center;
+    max-width: 200px;
+    font-family: sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.Pc-navigation-bar .page-title .pageTitleLink{
+    text-decoration: none;
+    color: black;
+}
+.Pc-navigation-bar .pc-view{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-around;
+    max-width: 500px;
+    list-style-type: none;
+}
+.Pc-navigation-bar .pc-view li{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+.Pc-navigation-bar .pc-view li hr{
+    border: 1px solid red;
+}
+
+
+.Pc-navigation-bar .search-button{
+    width: 100%;
+    
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Pc-navigation-bar .search-button input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.navigation-bar ul{
+    display: none;
+    width: 100%;
+    
+    justify-content: space-around;
+    max-width: 500px;
+    list-style-type: none;
+}
+.navigation-bar ul .cart-div{
+    color: black;
+    position: relative;
+}
+.navigation-bar ul .cart-icon{
+    height: 40px;
+    width: 25px;
+    
+}
+.navigation-bar ul .cart-div .cart-count{
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    background-color: rgb(254, 67, 67);
+    padding: 0px 5px;
+    border-radius: 100px;
+    color: white;
+}
+.Pc-navigation-bar .SignIn{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+
+}
+.navigation-bar ul li{
+    font-size: 20px;
+    
+    margin: 5px;
+
+}
+.navigation-bar ul li hr{
+    border: 1px solid red;
+}
+@media (max-width: 500px){
+    .Pc-navigation-bar .pc-view{
+        display: none;
+    }
+    .navigation-bar ul{
+        display: flex;
+    }
+    .Pc-navigation-bar .page-title{
+        max-width: 120px;
+    }
+    .Pc-navigation-bar .SignIn{
+        width: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+.list-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+.list-grid-link{
+    
+    text-decoration: none;
+    color: black;
+
+}
+@media  (max-width: 800px){
+    .list-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .list-grid{
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 10px;
+    }
+}

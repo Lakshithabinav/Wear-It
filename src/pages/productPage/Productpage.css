@@ -1,0 +1,150 @@
+.product-container{
+    
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image-div{
+    width: 100%;
+    height: 80vh;
+    margin: 20px 0px;
+}
+.image-div img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: contain;
+}
+.content-div{
+    
+    padding:10px  ;
+}
+.content-div .name{
+    font-size: 40px;
+}
+b
+.content-div .offer{
+    color: black;
+}
+.content-div .brand{
+    font-size: 20px;
+    color: rgb(117, 114, 114);
+}
+.content-div .price-component{
+    display: flex;
+    font-size: 18px;
+    max-width: 50%;
+    margin: 10px 0px;
+
+}
+.content-div .new-peice{
+    margin-right: 15px;
+}
+.content-div .old-price{
+    margin-right: 15px;
+    text-decoration: line-through   ;
+}
+.content-div .size-button-container{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    height: 35px;
+    margin-bottom: 10px;
+    
+}
+.content-div .quantityBoxOuterDiv{
+    display: flex;
+}
+.content-div .size-button-container .quantitybox{
+    height: 100%;
+    width: 50px;
+    border: solid 1px ;
+    padding-left: 20px;
+}
+.content-div .decreaseicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30px;
+    border: solid 1px ;
+}
+.content-div .increaseicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30px;
+    border: solid 1px ;
+}
+.content-div .size-button-container button{
+    
+    color: black;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.content-div .size-button-container .buttonOff{
+    background-color: white;
+    border: solid 1px black;
+}
+.content-div .size-button-container .buttonOn{
+    background-color: black;
+    color: white;
+}
+
+.content-div .bandc{
+    display: flex;
+}
+.content-div .bandc button{
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.content-div .bandc button .icon{
+  
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.content-div .bandc .buyNow{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    
+}
+
+.content-div .bandc .addToCart{
+    width: 120px;
+    height: 50px;
+    
+    background-color: rgb(255, 137, 26);
+}
+.productDiscriptionContainer{
+    padding: 10px;
+}
+.productDiscriptionHeading{
+    text-decoration:underline;
+   
+
+}
+.prodctDiscriptionContent{
+    text-align: justify;
+}
+@media(max-width:500px){
+    .product-container{
+        grid-template-columns: 1fr;
+        height: 50vh;
+        margin-top: 10px;
+    }
+    .image-div{
+        height: 50vh;
+    }
+}

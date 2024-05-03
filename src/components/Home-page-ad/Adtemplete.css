@@ -1,0 +1,59 @@
+.ad-div {
+    width: auto;
+    height: 80vh;
+    background-color: aqua;
+   
+    position: relative;
+  }
+  
+  .ad-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: top;
+  }
+  .ad-div .ad-content{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    bottom: 10%;
+    
+    right: 10%;
+  }
+  .ad-content p{
+    font-size: 50px;
+  }
+  .ad-content button{
+    color: white;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    background-color: red;
+    border-radius:50px ;
+  }
+  .ad-content button:hover{
+    opacity:0.7; 
+  }
+  @media (max-width: 900px){
+    .ad-div img {
+        object-position:left;
+    }
+    .ad-div{
+        height: 50vh;
+    }
+    .ad-div .ad-content{
+        left: 120px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    .ad-content button{
+        height: 40px;
+        width: 150px;
+    }
+  }
+  

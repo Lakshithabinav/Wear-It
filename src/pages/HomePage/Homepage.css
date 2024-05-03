@@ -1,0 +1,19 @@
+.home-div{
+    margin-top: 40px;
+    width: 100%;
+
+}
+.product-list{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+.product-list-container{
+    width: 100vw;
+    
+     display: flex;
+     
+     justify-content: center;
+}
