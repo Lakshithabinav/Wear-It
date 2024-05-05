@@ -138,7 +138,7 @@ b
 .prodctDiscriptionContent{
     text-align: justify;
 }
-@media(max-width:500px){
+@media(max-width:1000px){
     .product-container{
         grid-template-columns: 1fr;
         height: 50vh;

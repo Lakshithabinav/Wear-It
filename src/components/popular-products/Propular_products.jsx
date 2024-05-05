@@ -8,7 +8,7 @@ function Propular_products() {
     <>
     <div className='list-grid' >
       
-      {popularproducts.map((product) => (
+      {popularproducts.map((product,i) => (
         <Link to ={`/productPage/${product.id}`}className='list-grid-link'>
         <Item_card key={product.id} value={product} />
         </Link>

@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    height: 30px;
+
+}
+.login-div{
+    height: 100vh;
+    background-color: rgb(246, 248, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+ 
+.login-inner-div{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
+        max-width: 350px;
+        max-height:430px ;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.userInput-div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+
+}
+.userInput{
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+}
+
+
+.submit-button{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 275px;
+    padding: 5px 0px;
+    background-color: rgb(69, 188, 252);
+    border: none;
+    color: white;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.or-div{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    padding: 0px 20px;
+    color: rgb(179, 178, 178);
+}
+.fblogin{
+    color: rgb(8, 8, 138);
+    position: relative;
+    padding-left: 25px;
+}
+.fbicon{
+    position: absolute;
+    left: 0px;
+    height: 20px;
+    top: 13px;
+}
+.fblogin-text{
+    font-size: 15px;
+}
+.forgotPassword-content{
+    font-size: 12px;
+    color: rgb(31, 31, 94);
+}
+.signUp-div{
+    background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+        max-width: 350px;
+        max-height:70px ;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

@@ -17,7 +17,6 @@ function Productpage() {
     
     const dispatch = useDispatch();
     const handleChange = ()=>{
-        const size ="S";
         document.title ="Product";
         console.log("Hii")
         const product = allproducts.find(pro => pro.id === productId);
@@ -30,7 +29,9 @@ function Productpage() {
     useEffect(()=>{
         handleChange()
     },[id])
-
+    useEffect(()=>{
+        console.log("hii")
+      })
     return (
         <div>
             {product ? (

@@ -8,7 +8,7 @@
   
   .pageContent .pageTitle {
     height: 10vh;
-    width: 100%;
+    width: 99%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
     height: 70vh;
   }
   .pageContent .cartdisplayOuterdiv{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
 
@@ -32,26 +32,36 @@
   
   .pageContent .cartItemDisplay{
     width: 100%;
-  
     max-width: 600px;
+    
   }
   .itemDisplayOuterDiv{
     height: 100%;
   }
-  .pageContent .cartPrice {
+  .pageContent .cartPrice1 {
     width: 30%; 
-    background-color: black;
+    background-color: rgb(249, 81, 81);
     color: white;
     height: 70vh;
     border-radius:10px ;
+    position: fixed;
+    right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   @media (max-width : 700px) {
-    .pageContent .cartPrice {
+    .pageContent .cartPrice1 {
         position: fixed;
         height: 10vh;
         width: 100%;
         bottom: 0px;
+        left: 0px;
       }
+      .pageContent .cartdisplayOuterdiv{
+        width: 100%;
+      }
+      
       
   }
   

@@ -23,7 +23,7 @@ function Cartpage() {
               })}
             </div>
           </div>
-          <div className='cartPrice'><Cartitemtotal/></div>
+          <div className='cartPrice1'><Cartitemtotal/></div>
         </div>
       </div>
     </>
